@@ -1,24 +1,18 @@
-# README
+# myphoto-app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Rails 5.2 starter with user accounts: Devise for sign-up and login, styled
+with Bootstrap, and PostgreSQL set up for production.
 
-Things you may want to cover:
+**Stack:** Ruby 2.7, Rails 5.2, Devise, Bootstrap, SQLite / PostgreSQL
 
-* Ruby version
+## Run it
 
-* System dependencies
+```bash
+bundle install
+bin/rails db:setup
+bin/rails server
+```
 
-* Configuration
+---
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+An early learning project from 2023, kept for reference and archived. My current work is on [my profile](https://github.com/gaganggoyal) and at [gagan.indiaoffers.in](https://gagan.indiaoffers.in).
